@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ffhq-search/precache-manifest.92a6fcacac5b3bd80a1ed2b756023669.js"
+  "/ffhq-dataset/search/precache-manifest.d5e29510a2069c4ce4aaafff8ab19b02.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ffhq-search/index.html", {
+workbox.routing.registerNavigationRoute("/ffhq-dataset/search/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
